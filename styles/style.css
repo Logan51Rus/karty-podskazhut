@@ -6,16 +6,16 @@
   --accent-font: 'STIX Two Text';
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .theme_dark {
   --bg-color: #171717;
   --text-color: #B3B3B3;
   --accent-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 .page {
